@@ -1,0 +1,72 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(IMGAE/evarest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+#admin {
+    text-align: center;
+    margin: 150px auto;
+    width: 50%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px;
+}
+
+#admin img {
+    width: 130px;
+}
+
+#admin h1 {
+    font-size: 35px;
+}
+
+input {
+    border: 2px solid;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input[type="submit"]:hover {
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+}
+
+input:hover {
+color: deeppink;
+background-color: darkkhaki;
+}
+
+a {
+    color: blue;
+}
+
+.font {
+    
+    font-size: 20px;
+    color:black;
+     
+}
+
+p{
+    font-size: 18px;
+}
